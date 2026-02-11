@@ -1,0 +1,33 @@
+You are building a translation engine that takes a static image of a hand sign (A–Z) and predicts the letter. You must solve this problem twice: first using Classical Machine Learning (the "Control"), and second using Neural Networks (the "Experiment"). Finally, you must deploy the winner as a usable app.
+
+ 
+
+A high-accuracy model in a messy Notebook is a fail. A lower-accuracy model in a clean, versioned, and deployed pipeline is a pass.
+
+ 
+
+No pre-trained models allowed!
+
+ 
+
+This will be completed over a three-week sprint.
+
+Week 1 – Baseline Model with either SVM or Random Forest
+
+Deliverable – Confusion matrix for the classical model.
+
+Week 2 – Build a Multi-Layer Perceptron using PyTorch or TensorFlow
+
+Run experiments with varying architectures (eg # of hidden layers, different activation functions.)
+
+Track experiments using weights and biases
+
+Deliverable – A Weights and Biases dashboard showing the loss curves of the neural net vs the random forest/ SVM model.
+
+Week 3 – Deployment
+
+Build a local dashboard (may use streamlit)
+
+App must allow upload of a png of a hand sign and display the predicted letter and confidence sore.
+
+Deliverable – Live demo and presentation
