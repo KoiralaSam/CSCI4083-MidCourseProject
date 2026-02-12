@@ -4,3 +4,5 @@ matplot
 seaborn
 scikit-learn
 ipykernel
+kagglehub[pandas-datasets]
+streamlit
