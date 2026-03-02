@@ -15,5 +15,4 @@ def build_mlp(input_dim=784, n_classes=25, hidden_units=(128, 64, 24), activatio
     model.add(tf.keras.layers.Dense(n_classes, activation="softmax"))
     
     model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
-    
     return model
